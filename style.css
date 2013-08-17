@@ -41,7 +41,7 @@ body {
   margin: 0px 5px 0 5px;
   width: 300px;
   padding: 10px;
-  box-shadow: 0px 1px 10px 2px grey;
+  box-shadow: 0px 1px 10px 2px gray;
 }
 .morelink {
   display: block;
@@ -62,7 +62,7 @@ body {
 }
 .morelink:hover a {
   color: inherit;
-  background: lightgrey;
+  background: #ffffff;
   border-radius: 5px;
 }
 .fancy-toggle-button .remove {
@@ -70,7 +70,7 @@ body {
   background-repeat: repeat;
   background: #e74c3c;
   border: 0px !important;
-  border-bottom: 2px solid #c0392b !important;
+  border-bottom: 2px solid #a82315 !important;
   padding: 4px;
 }
 .fancy-toggle-button .add {
@@ -79,7 +79,7 @@ body {
   background-repeat: repeat;
   padding: 4px;
   border: 0px;
-  border-bottom: 2px solid #27ae60;
+  border-bottom: 2px solid #1b7943;
 }
 .side .usertext-body .md a {
   padding: 5px;
@@ -94,7 +94,7 @@ body {
   bottom: 1px;
 }
 .flair {
-  border-bottom: 3px solid lightgrey;
+  border-bottom: 3px solid #ffffff;
   border-radius: 5px;
 }
 ::-webkit-scrollbar {
@@ -128,18 +128,18 @@ body {
 .author.id-t2_bjxud:after {
   content: "Subreddit CSS";
   margin: 5px;
-  border-bottom: 3px solid lightgrey !important;
+  border-bottom: 3px solid #ffffff !important;
   border-radius: 5px;
   padding: 0 2px;
   z-index: 999;
   color: #555;
   background: #f5f5f5;
   font-weight: normal !Important;
-  border: 1px solid lightgrey;
+  border: 1px solid #ffffff;
 }
 .thing.stickied.link {
-  border: 1px solid lightgrey;
-  box-shadow: 1px 1px 5px 1px lightgrey;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 1px 5px 1px #ffffff;
 }
 .thing.stickied.link .title {
   font-size: 20px;
