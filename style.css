@@ -1,0 +1,68 @@
+body {
+  background-color: #fafafa;
+}
+.tabmenu li a {
+  background-color: #eff7ff;
+  padding: 10px;
+  position: relative;
+  bottom: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: 2px solid lightblue;
+}
+#header-bottom-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: #EFF7FF;
+  padding: 4px;
+  line-height: 12px;
+  border-top-left-radius: 7px;
+  border-top: 3px solid lightblue;
+  border-top-right-radius: 7px;
+}
+.link {
+  margin: 0;
+  margin-bottom: 8px;
+  padding-left: 3px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border-bottom: 3px solid #bdc3c7;
+}
+.side {
+  float: right;
+  background-color: white;
+  margin: 0px 5px 0 5px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 1px 10px 2px #f5f5f5;
+}
+.fancy-toggle-button .remove {
+  background-position: 0px -182px;
+  background-repeat: repeat;
+  background: #e74c3c;
+  border: 0px !important;
+  border-bottom: 2px solid #c0392b !important;
+  padding: 4px;
+}
+.fancy-toggle-button .add {
+  background: #2ecc71;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  padding: 4px;
+  border: 0px;
+  border-bottom: 2px solid #27ae60;
+}
+.side .usertext-body .md a {
+  padding: 5px;
+  background: #ecf0f1;
+  display: inline-block;
+  border-radius: 5px;
+  border-bottom: 3px solid #bdc3c7;
+}
+.side .usertext-body .md a:active {
+  border-bottom: 2px solid #bdc3c7;
+  position: relative;
+  bottom: 1px;
+}
