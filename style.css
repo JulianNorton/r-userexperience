@@ -2,6 +2,9 @@ body {
   background-color: #fafafa;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+.nub {
+  display: none;
+}
 .tabmenu li a {
   background-color: #eff7ff;
   position: relative;
