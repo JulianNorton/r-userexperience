@@ -33,6 +33,7 @@
   margin: 0px 5px 0 5px;
   width: 300px;
   padding: 10px;
+  box-shadow: 0px 1px 10px 2px #f5f5f5;
 }
 .fancy-toggle-button .remove {
   background-position: 0px -182px;
