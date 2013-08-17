@@ -1,0 +1,184 @@
+@import "variables.less";
+
+body {
+	background-color: rgb(250,250,250);
+	font-family:@fontstack;
+}
+
+.tabmenu {
+	li a {
+		background-color: #eff7ff;
+		position: relative;
+		bottom: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-top: 2px solid lightblue;
+		padding: 5px 10px;
+	}
+	li.selected a {
+		background-color: #fafafa;
+		border-bottom: 1px solid #fafafa;
+	}
+}
+
+#header-bottom-right {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: #EFF7FF;
+	padding: 4px;
+	line-height: 12px;
+	border-top-left-radius: 7px;
+	border-top: 3px solid lightblue;
+	border-top-right-radius: 7px;
+}
+  
+.link {
+	margin: 0;
+	margin-bottom: 8px;
+	padding-left: 3px;
+	padding: 10px;
+	border-radius: 10px;
+	background: @bggrey;
+	border-bottom: 3px solid #bdc3c7 !important;
+}
+
+.side {
+	float: right;
+	background-color: white;
+	margin: 0px 5px 0 5px;
+	width: 300px;
+	padding: 10px;
+	box-shadow: 0px 1px 10px 2px grey;
+}
+
+.morelink {
+	display: block;
+	text-align: center;
+	position: relative;
+	border: 0px solid #c4dbf1;
+	background: #ffffff none repeat-x scroll center left;
+	background: @bggrey;
+	background-position: 0px -278px;
+	background-repeat: repeat;
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 29px;
+	height: 29px;
+	border-bottom: 3px solid #bdc3c7;
+	border-radius: 5px;
+}
+
+.morelink:hover a {
+	color: inherit;
+	background: lightgrey;
+	border-radius: 5px;
+}
+
+.fancy-toggle-button {
+	.remove {
+		background-position: 0px -182px;
+		background-repeat: repeat;
+		background: @red;
+		border: 0px !important;
+		border-bottom: 2px solid @darkred !important;
+		padding: 4px;
+	}
+
+	.add {
+		background: @green;
+		background-position: 0px 0px;
+		background-repeat: repeat;
+		padding: 4px;
+		border: 0px;
+		border-bottom: 2px solid @darkgreen;
+	}
+}
+
+.side {
+	.usertext-body {
+		.md{
+			a {
+			padding: 5px;
+			background: #ecf0f1;
+			display: inline-block;
+			border-radius: 5px;
+			border-bottom: 3px solid #bdc3c7;
+			}
+			a:active {
+				border-bottom: 2px solid #bdc3c7;
+				position:relative;
+          		bottom:1px;
+          	}
+		}
+	}
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  	margin:5px;
+}
+
+.flair {
+	border-bottom: 3px solid lightgrey;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+	background-color: #f5f5f5;
+	border-left: 1px solid #d2d2d2;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #c3c3c3;
+	border-top: 1px solid #b6b6b6;
+	border-bottom: 1px solid #969696;
+	border-left: 1px solid #b6b6b6;
+}
+    
+::-webkit-scrollbar-button {
+	display: none;
+	width: 0;
+	height: 0;
+}
+    
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+	color: #555;
+}
+
+.nextprev a {
+	padding: 1px 4px;
+	background: @bggrey;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	border-bottom: 3px solid #bdc3c7;
+}
+
+.author.id-t2_bjxud:after {
+	content: "Subreddit CSS";
+	margin: 5px;
+	border-bottom: 3px solid lightgrey !important;
+	border-radius: 5px;
+	padding: 0 2px;
+	z-index: 999;
+	color: #555;
+	background: @bggrey;
+	font-weight: normal !Important;
+	border: 1px solid lightgrey;
+}
+
+.thing.stickied.link {
+	border: 1px solid lightgrey;
+	box-shadow: 1px 1px 5px 1px lightgrey;
+	.title {
+		font-size:20px;
+	}
+}
