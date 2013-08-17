@@ -16,6 +16,7 @@
   line-height: 12px;
   border-top-left-radius: 7px;
   border-top: 3px solid lightblue;
+  border-top-right-radius: 7px;
 }
 .link {
   margin: 0;
