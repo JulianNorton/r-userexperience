@@ -135,11 +135,11 @@ hr {
   border-bottom: 3px solid #bdc3c7;
 }
 .author.id-t2_bjxud:after {
-  content: "Subreddit CSS Guy";
+  content: "Subreddit CSS";
   margin: 5px;
-  background: #ecf0f1;
-  color: #369;
-  padding: 4px;
+  border-bottom: 3px solid lightgrey;
   border-radius: 5px;
-  border-bottom: 3px solid #bdc3c7;
+  padding: 4px;
+  z-index: 999;
+  background: #f5f5f5;
 }
