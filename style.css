@@ -11,6 +11,10 @@ body {
   border-top: 2px solid lightblue;
   padding: 5px 10px;
 }
+.tabmenu li.selected a {
+  background-color: #fafafa;
+  border-bottom: 1px solid #fafafa;
+}
 #header-bottom-right {
   position: absolute;
   right: 0px;

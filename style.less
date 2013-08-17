@@ -5,14 +5,20 @@ body {
 	font-family:@fontstack;
 }
 
-.tabmenu li a {
-	background-color: #eff7ff;
-	position: relative;
-	bottom: 5px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-top: 2px solid lightblue;
-	padding: 5px 10px;
+.tabmenu {
+	li a {
+		background-color: #eff7ff;
+		position: relative;
+		bottom: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-top: 2px solid lightblue;
+		padding: 5px 10px;
+	}
+	li.selected a {
+		background-color: #fafafa;
+		border-bottom: 1px solid #fafafa;
+	}
 }
 
 #header-bottom-right {
