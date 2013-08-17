@@ -40,7 +40,7 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	background: @bggrey;
-	border-bottom: 3px solid #bdc3c7;
+	border-bottom: 3px solid #bdc3c7 !important;
 }
 
 .side {
@@ -172,4 +172,12 @@ hr {
 	z-index: 999;
 	color: #555;
 	background: @bggrey;
+}
+
+.thing.stickied.link {
+	border: 1px solid lightgrey;
+	box-shadow: 1px 1px 5px 1px lightgrey;
+	.title {
+		font-size:20px;
+	}
 }
