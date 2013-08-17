@@ -43,6 +43,23 @@ body {
   padding: 10px;
   box-shadow: 0px 1px 10px 2px grey;
 }
+.morelink {
+  display: block;
+  text-align: center;
+  position: relative;
+  border: 0px solid #c4dbf1;
+  background: #ffffff none repeat-x scroll center left;
+  background: #f5f5f5;
+  background-position: 0px -278px;
+  background-repeat: repeat;
+  font-size: 150%;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 29px;
+  height: 29px;
+  border-bottom: 3px solid #bdc3c7;
+  border-radius: 5px;
+}
 .fancy-toggle-button .remove {
   background-position: 0px -182px;
   background-repeat: repeat;
