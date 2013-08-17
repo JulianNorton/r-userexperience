@@ -60,6 +60,11 @@ body {
   border-bottom: 3px solid #bdc3c7;
   border-radius: 5px;
 }
+.morelink:hover a {
+  color: inherit;
+  background: lightgrey;
+  border-radius: 5px;
+}
 .fancy-toggle-button .remove {
   background-position: 0px -182px;
   background-repeat: repeat;
