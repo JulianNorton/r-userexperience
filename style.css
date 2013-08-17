@@ -80,3 +80,7 @@ hr {
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   margin: 5px;
 }
+.flair {
+  border-bottom: 3px solid lightgrey;
+  border-radius: 5px;
+}
