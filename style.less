@@ -8,6 +8,7 @@ body {
 .nub {
 	display:none;
 }
+
 .tabmenu {
 	li a {
 		background-color: #eff7ff;
@@ -35,7 +36,7 @@ body {
 	border-top: 3px solid lightblue;
 	border-top-right-radius: 7px;
 }
-  
+
 .link {
 	margin: 0;
 	margin-bottom: 8px;
@@ -43,7 +44,14 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	background: @gray;
-	border-bottom: 3px solid #bdc3c7 !important;
+	border-bottom: 3px solid @gray;
+	.title {
+		font-size: @large;
+	}
+	.tagline {
+		margin-top: (@small / 10);
+		font-size: @small;
+	}
 }
 
 .side {
@@ -103,17 +111,17 @@ body {
 	.usertext-body {
 		.md {
 			a {
-			padding: 5px;
-			background: #ecf0f1;
-			display: inline-block;
-			border-radius: 5px;
-			border-bottom: 3px solid #bdc3c7;
+				padding: 5px;
+				background: #ecf0f1;
+				display: inline-block;
+				border-radius: 5px;
+				border-bottom: 3px solid #bdc3c7;
 			}
 			a:active {
 				border-bottom: 2px solid #bdc3c7;
 				position:relative;
-          		bottom:1px;
-          	}
+				bottom:1px;
+			}
 		}
 	}
 }
@@ -136,13 +144,13 @@ body {
 	border-bottom: 1px solid #969696;
 	border-left: 1px solid #b6b6b6;
 }
-    
+
 ::-webkit-scrollbar-button {
 	display: none;
 	width: 0;
 	height: 0;
 }
-    
+
 ::-webkit-scrollbar-corner {
 	background-color: transparent;
 	color: #555;
@@ -173,6 +181,6 @@ body {
 	border: 1px solid @light-gray;
 	box-shadow: 1px 1px 5px 1px @light-gray;
 	.title {
-		font-size:20px;
+		font-size: (@large * 1.1); 
 	}
 }
