@@ -38,7 +38,6 @@ body {
 }
 
 .link {
-	margin: 0;
 	margin-bottom: 8px;
 	padding-left: 3px;
 	padding: 10px;
@@ -52,15 +51,6 @@ body {
 		margin-top: (@small / 10);
 		font-size: @small;
 	}
-}
-
-.side {
-	float: right;
-	background-color: white;
-	margin: 0px 5px 0 5px;
-	width: 300px;
-	padding: 10px;
-	box-shadow: 0px 1px 10px 2px gray;
 }
 
 .morelink {
@@ -108,6 +98,12 @@ body {
 }
 
 .side {
+	float: right;
+	background-color: @white;
+	margin: 0px 5px 0 5px;
+	width: 250px;
+	padding: 10px;
+	box-shadow: 0px 1px 10px 1px @gray;
 	.usertext-body {
 		.md {
 			a {
@@ -175,6 +171,10 @@ body {
 	background: @gray;
 	font-weight: normal !Important;
 	border: 1px solid @light-gray;
+}
+
+.thing {
+	margin-right: 300px;
 }
 
 .thing.stickied.link {
