@@ -1,6 +1,6 @@
-////////////
-///Colors///
-////////////
+//////////////
+/// Colors ///
+//////////////
 
 @red: #e74c3c;
 @dark-red: darken(@red, 20%);
@@ -16,5 +16,24 @@
 
 @fontstack: Calibri, Candara,Segoe, "Segoe UI", Optima, Arial, sans-serif;
 @base-font-size: 1em;
-	@large: (@base-font-size * 1.2);
-	@small: (@base-font-size * .8);
+@large: (@base-font-size * 1.2);
+@small: (@base-font-size * .8);
+
+
+
+///////////////////////////
+/// Yet to be organized ///
+///////////////////////////
+
+.box-shadow (@shadow) {
+	-webkit-box-shadow: @shadow;
+	-moz-box-shadow:    @shadow;
+	box-shadow:         @shadow;
+}
+
+.border-radius(@radius) {
+	border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
