@@ -1,6 +1,7 @@
 body {
   background-color: #fafafa;
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
 }
 .nub {
   display: none;
@@ -33,38 +34,39 @@ body {
   margin-bottom: 8px;
   padding-left: 3px;
   padding: 10px;
-  border-radius: 10px;
-  background: #f5f5f5;
-  border-bottom: 3px solid #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #ffffff;
 }
 .link .title {
-  font-size: 1.2em;
+  font-size: 1.38em;
 }
 .link .tagline {
-  margin-top: 0.08em;
-  font-size: 0.8em;
+  margin-top: 0.092em;
+  font-size: 0.9199999999999999em;
 }
 .morelink {
-  display: block;
-  text-align: center;
-  position: relative;
-  border: 0px solid #c4dbf1;
-  background: #ffffff none repeat-x scroll center left;
-  background: #f5f5f5;
-  background-position: 0px -278px;
-  background-repeat: repeat;
-  font-size: 150%;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 29px;
-  height: 29px;
-  border-bottom: 3px solid #bdc3c7;
-  border-radius: 5px;
+  background: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
-.morelink:hover a {
-  color: inherit;
-  background: #ffffff;
-  border-radius: 5px;
+.morelink a {
+  color: #336688;
+  font-size: 1.15em;
+  letter-spacing: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.morelink a:hover {
+  color: #254a63;
+  background-color: #f5f5f5;
+}
+.morelink a:active {
+  color: #4182ad;
+  background-color: #ffffff;
 }
 .fancy-toggle-button .remove {
   background-position: 0px -182px;
@@ -94,7 +96,9 @@ body {
   padding: 5px;
   background: #ecf0f1;
   display: inline-block;
-  border-radius: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   border-bottom: 3px solid #bdc3c7;
 }
 .side .usertext-body .md a:active {
@@ -104,7 +108,9 @@ body {
 }
 .flair {
   border-bottom: 3px solid #ffffff;
-  border-radius: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -131,14 +137,18 @@ body {
   padding: 1px 4px;
   background: #f5f5f5;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   border-bottom: 3px solid #bdc3c7;
 }
 .author.id-t2_bjxud:after {
   content: "Subreddit CSS";
   margin: 5px;
   border-bottom: 3px solid #ffffff !important;
-  border-radius: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   padding: 0 2px;
   z-index: 999;
   color: #555;
@@ -148,11 +158,4 @@ body {
 }
 .thing {
   margin-right: 300px;
-}
-.thing.stickied.link {
-  border: 1px solid #ffffff;
-  box-shadow: 1px 1px 5px 1px #ffffff;
-}
-.thing.stickied.link .title {
-  font-size: 1.32em;
 }
