@@ -18,6 +18,13 @@ body {
   font-size: 1.8399999999999999em;
   font-variant: normal;
 }
+#search input[type=text] {
+  width: 95%;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
 .nub,
 .rank {
   display: none;
