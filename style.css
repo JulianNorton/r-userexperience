@@ -1,9 +1,25 @@
+.text-shadow {
+  text-shadow: 0px 1px #f6f6f6;
+}
 body {
   background-color: #fafafa;
   font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 0;
 }
-.nub {
+#header-bottom-left {
+  margin-top: 20px;
+}
+#header-bottom-left #header-img {
+  height: auto;
+  width: 50px;
+}
+#header-bottom-left .pagename {
+  text-shadow: 0px 1px #f6f6f6;
+  font-size: 1.8399999999999999em;
+  font-variant: normal;
+}
+.nub,
+.rank {
   display: none;
 }
 .tabmenu li a {
@@ -62,11 +78,11 @@ body {
 }
 .morelink a:hover {
   color: #254a63;
-  background-color: #f5f5f5;
+  background-color: #dcdcdc;
 }
 .morelink a:active {
   color: #4182ad;
-  background-color: #ffffff;
+  background-color: #f6f6f6;
 }
 .fancy-toggle-button .remove {
   background-position: 0px -182px;
@@ -90,7 +106,7 @@ body {
   margin: 0px 5px 0 5px;
   width: 250px;
   padding: 10px;
-  box-shadow: 0px 1px 10px 1px #f5f5f5;
+  box-shadow: 0px 1px 10px 1px #dcdcdc;
 }
 .side .usertext-body .md a {
   padding: 5px;
@@ -107,10 +123,43 @@ body {
   bottom: 1px;
 }
 .flair {
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid #f6f6f6;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+.nextprev a {
+  padding: 1px 4px;
+  background: #dcdcdc;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-bottom: 3px solid #bdc3c7;
+}
+.author.id-t2_bjxud:after {
+  content: "Subreddit CSS";
+  margin: 5px;
+  border-bottom: 3px solid #f6f6f6 !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0 2px;
+  z-index: 999;
+  color: #555;
+  background: #dcdcdc;
+  font-weight: normal !Important;
+  border: 1px solid #f6f6f6;
+}
+.thing {
+  margin-right: 300px;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 1px 0 #dcdcdc;
+  -moz-box-shadow: 0px 1px 0 #dcdcdc;
+  box-shadow: 0px 1px 0 #dcdcdc;
+}
+.thing:hover {
+  border: 1px solid #f6f6f6;
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -132,30 +181,4 @@ body {
 ::-webkit-scrollbar-corner {
   background-color: transparent;
   color: #555;
-}
-.nextprev a {
-  padding: 1px 4px;
-  background: #f5f5f5;
-  border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  border-bottom: 3px solid #bdc3c7;
-}
-.author.id-t2_bjxud:after {
-  content: "Subreddit CSS";
-  margin: 5px;
-  border-bottom: 3px solid #ffffff !important;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  padding: 0 2px;
-  z-index: 999;
-  color: #555;
-  background: #f5f5f5;
-  font-weight: normal !Important;
-  border: 1px solid #ffffff;
-}
-.thing {
-  margin-right: 300px;
 }

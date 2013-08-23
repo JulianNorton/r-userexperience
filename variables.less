@@ -9,8 +9,9 @@
 @dark-red: darken(@red, 20%);
 @green: #2ecc71;
 @dark-green: darken(@green, 20%);
-@gray: #f5f5f5;
-@light-gray: lighten(@gray, 20%);
+@gray: #dcdcdc;
+@dark-gray: darken(@gray, 10%);
+@light-gray: lighten(@gray, 10%);
 @white: #ffffff;
 
 //////////////////
@@ -18,9 +19,10 @@
 //////////////////
 
 @fontstack: Helvetica, Arial, sans-serif;
+@small: (@base-font-size * .8);
 @base-font-size: 1.15em;
 @large: (@base-font-size * 1.2);
-@small: (@base-font-size * .8);
+@larger: (@base-font-size * 1.6);
 
 ///////////////////////////
 /// Yet to be organized ///
@@ -37,4 +39,8 @@
 	-webkit-border-radius: @radius;
 	-moz-border-radius: @radius;
 	border-radius: @radius;
+}
+
+.text-shadow {
+	text-shadow: 0px 1px @light-gray;		
 }
