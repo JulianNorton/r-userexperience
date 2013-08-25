@@ -174,11 +174,17 @@ body {
 }
 .thing.link .title:active,
 .thing.link .title:hover {
-  color: #4182ad;
+  color: #254a63;
 }
 .thing.link .title .tagline {
   margin-top: 0.092em;
   font-size: 0.9199999999999999em;
+}
+.thing .title:visited {
+  color: #83b2d1 !important;
+}
+.thing .title:visited:hover {
+  color: #4182ad !important;
 }
 ::-webkit-scrollbar {
   width: 12px;

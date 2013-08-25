@@ -177,13 +177,20 @@ body {
 			font-size: @large;
 			color: @primary-color;
 			&:active, &:hover {
-				color: @primary-tint;
+				color: @primary-shade;
 			}
 			.tagline {
 				margin-top: (@small / 10);
 				font-size: @small;
 			}
 		}
+	}
+}
+
+.thing .title:visited {
+	color: @primary-tint-2!important;
+	&:hover {
+		color: @primary-tint!important;
 	}
 }
 
