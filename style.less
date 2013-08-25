@@ -66,21 +66,6 @@ body {
 	border-top-right-radius: 7px;
 }
 
-.link {
-	margin-bottom: 8px;
-	padding-left: 3px;
-	padding: 10px;
-	.border-radius(4px);
-	background: @white;
-	.title {
-		font-size: @large;
-	}
-	.tagline {
-		margin-top: (@small / 10);
-		font-size: @small;
-	}
-}
-
 .morelink {
 	background: none;
 	.border-radius(4px); 
@@ -178,16 +163,33 @@ body {
 	.box-shadow (0px 1px 0 @gray);
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
-	&:hover {
-		border: 1px solid @light-gray;
-		border-left: 1px solid @primary-color;
+	&.link {
+		margin-bottom: 8px;
+		padding-left: 3px;
+		padding: 10px;
+		.border-radius(4px);
+		background: @white;
+		&:hover {
+			border: 1px solid @light-gray;
+			border-left: 1px solid @primary-color;
+		}
+		.title {
+			font-size: @large;
+			color: @primary-color;
+			&:active, &:hover {
+				color: @primary-tint;
+			}
+			.tagline {
+				margin-top: (@small / 10);
+				font-size: @small;
+			}
+		}
 	}
 }
 
 .score {
 	//font-size: @large;
 }
-
 
 /////////////////////////
 ////// Scroll-bar ///////

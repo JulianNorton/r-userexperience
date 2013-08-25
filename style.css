@@ -57,22 +57,6 @@ body {
   border-top: 3px solid lightblue;
   border-top-right-radius: 7px;
 }
-.link {
-  margin-bottom: 8px;
-  padding-left: 3px;
-  padding: 10px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background: #ffffff;
-}
-.link .title {
-  font-size: 1.38em;
-}
-.link .tagline {
-  margin-top: 0.092em;
-  font-size: 0.9199999999999999em;
-}
 .morelink {
   background: none;
   -webkit-border-radius: 4px;
@@ -171,9 +155,30 @@ body {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-.thing:hover {
+.thing.link {
+  margin-bottom: 8px;
+  padding-left: 3px;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+.thing.link:hover {
   border: 1px solid #f6f6f6;
   border-left: 1px solid #336688;
+}
+.thing.link .title {
+  font-size: 1.38em;
+  color: #336688;
+}
+.thing.link .title:active,
+.thing.link .title:hover {
+  color: #4182ad;
+}
+.thing.link .title .tagline {
+  margin-top: 0.092em;
+  font-size: 0.9199999999999999em;
 }
 ::-webkit-scrollbar {
   width: 12px;
