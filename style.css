@@ -6,6 +6,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 0;
 }
+.content {
+  margin-left: 1em;
+}
 #header-bottom-left {
   margin-top: 20px;
 }
@@ -19,8 +22,9 @@ body {
   font-variant: normal;
 }
 #search input[type=text] {
-  width: 95%;
+  width: 96%;
   border: 1px solid #dcdcdc;
+  padding: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -164,9 +168,12 @@ body {
   -webkit-box-shadow: 0px 1px 0 #dcdcdc;
   -moz-box-shadow: 0px 1px 0 #dcdcdc;
   box-shadow: 0px 1px 0 #dcdcdc;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .thing:hover {
   border: 1px solid #f6f6f6;
+  border-left: 1px solid #336688;
 }
 ::-webkit-scrollbar {
   width: 12px;
