@@ -57,8 +57,34 @@ body {
   border-top: 3px solid lightblue;
   border-top-right-radius: 7px;
 }
+.submit {
+  background: none;
+  background-color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.submit a {
+  color: #336688;
+  font-size: 1.15em;
+  letter-spacing: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.submit:hover,
+.submit:active {
+  background-image: none;
+  color: #254a63;
+  background-color: #f6f6f6;
+}
+.submit:hover a,
+.submit:active a {
+  color: #254a63 !important;
+}
 .morelink {
   background: none;
+  background-color: #ffffff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -71,13 +97,15 @@ body {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-.morelink a:hover {
+.morelink:hover,
+.morelink:active {
+  background-image: none;
   color: #254a63;
-  background-color: #dcdcdc;
-}
-.morelink a:active {
-  color: #4182ad;
   background-color: #f6f6f6;
+}
+.morelink:hover a,
+.morelink:active a {
+  color: #254a63 !important;
 }
 .fancy-toggle-button .remove {
   background-position: 0px -182px;

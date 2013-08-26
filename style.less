@@ -1,3 +1,5 @@
+////// Style the submit new post buttons better /////
+
 @import "variables.less";
 
 body {
@@ -66,21 +68,26 @@ body {
 	border-top-right-radius: 7px;
 }
 
+.submit {
+	.morelink;
+}
+
 .morelink {
 	background: none;
+	background-color: @white;
 	.border-radius(4px); 
 	a {
 		color: @primary-color;
 		font-size: @base-font-size;
 		letter-spacing: 0;
 		.border-radius(4px); 
-		&:hover {
-			color: @primary-shade;
-			background-color: @gray;
-		}
-		&:active {
-			color: @primary-tint;
-			background-color: @light-gray;
+	}
+	&:hover, &:active {
+		background-image: none;
+		color: @primary-shade;
+		background-color: @light-gray;
+		a {
+			color: @primary-shade!important;
 		}
 	}
 }
