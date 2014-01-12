@@ -1,4 +1,4 @@
-r-webdesign
+/r/testtheme
 ===========
 
 <i>Because the default style sheet sucks.<i>
